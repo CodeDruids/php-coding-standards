@@ -23,6 +23,9 @@ composer require codedruids/php-coding-standards
 * `LaravelPhpdocAlignmentFixer`
 <br>PHPDoc space alignment fixer for conforming with [Laravel](https://laravel.com) coding standards.
 <br>Origin: [laravel/pint](https://github.com/laravel/pint) (@nunomaduro)
+* `NoUnusedImportsFixer` (variant)
+<br>Variant of PHP-CS-Fixer which adds 'treat_same_namespace_as_unused' parameter
+<br>Origin: [arnaud-lb/PHP-CS-Fixer](https://github.com/arnaud-lb/PHP-CS-Fixer) (@arnaud-lb)
 
 ## License
 

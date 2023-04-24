@@ -1,6 +1,6 @@
 {
     "name": "codedruids/php-coding-standards",
-    "description": "Collection of coding standards that haven't made it into packages yet",
+    "description": "Collection of fixers/sniffs for coding standards that haven't made it into packages yet",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\": "src/Laravel"
+            "Laravel\\": "src/Laravel",
+            "ALeBlanc\\": "src/ALeBlanc"
         }
     }
 }

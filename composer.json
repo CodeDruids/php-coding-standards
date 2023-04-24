@@ -1,7 +1,7 @@
 {
     "name": "codedruids/php-coding-standards",
     "description": "Collection of coding standards that haven't made it into packages yet",
-	"type": "library",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,8 @@
             "email": "leith@codedruids.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^8.1.0",
         "friendsofphp/php-cs-fixer": "^3.16"
